@@ -2,199 +2,437 @@
   "tipo": "ProgramNode",
   "statements": [
     {
-      "tipo": "BinOpNode",
+      "tipo": null,
       "op": "+",
       "left": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 10,
-        "is_real": false
+        "is_real": false,
+        "linha": 10,
+        "categoria": null
       },
       "right": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 5,
-        "is_real": false
-      }
+        "is_real": false,
+        "linha": 10,
+        "categoria": null
+      },
+      "linha": 10,
+      "categoria": null
     },
     {
-      "tipo": "BinOpNode",
+      "tipo": null,
       "op": "-",
       "left": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 20,
-        "is_real": false
+        "is_real": false,
+        "linha": 11,
+        "categoria": null
       },
       "right": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 8,
-        "is_real": false
-      }
+        "is_real": false,
+        "linha": 11,
+        "categoria": null
+      },
+      "linha": 11,
+      "categoria": null
     },
     {
-      "tipo": "BinOpNode",
+      "tipo": null,
       "op": "*",
       "left": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 6,
-        "is_real": false
+        "is_real": false,
+        "linha": 12,
+        "categoria": null
       },
       "right": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 7,
-        "is_real": false
-      }
-    },
-    {
-      "tipo": "BinOpNode",
-      "op": "/",
-      "left": {
-        "tipo": "NumberNode",
-        "value": 20,
-        "is_real": false
+        "is_real": false,
+        "linha": 12,
+        "categoria": null
       },
-      "right": {
-        "tipo": "NumberNode",
-        "value": 4,
-        "is_real": false
-      }
+      "linha": 12,
+      "categoria": null
     },
     {
-      "tipo": "BinOpNode",
-      "op": "%",
-      "left": {
-        "tipo": "NumberNode",
-        "value": 17,
-        "is_real": false
-      },
-      "right": {
-        "tipo": "NumberNode",
-        "value": 5,
-        "is_real": false
-      }
-    },
-    {
-      "tipo": "BinOpNode",
+      "tipo": null,
       "op": "|",
       "left": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 7.5,
-        "is_real": true
+        "is_real": true,
+        "linha": 13,
+        "categoria": null
       },
       "right": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 2.5,
-        "is_real": true
-      }
+        "is_real": true,
+        "linha": 13,
+        "categoria": null
+      },
+      "linha": 13,
+      "categoria": null
     },
     {
-      "tipo": "BinOpNode",
+      "tipo": null,
+      "op": "/",
+      "left": {
+        "tipo": null,
+        "value": 20,
+        "is_real": false,
+        "linha": 14,
+        "categoria": null
+      },
+      "right": {
+        "tipo": null,
+        "value": 4,
+        "is_real": false,
+        "linha": 14,
+        "categoria": null
+      },
+      "linha": 14,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "op": "%",
+      "left": {
+        "tipo": null,
+        "value": 17,
+        "is_real": false,
+        "linha": 15,
+        "categoria": null
+      },
+      "right": {
+        "tipo": null,
+        "value": 5,
+        "is_real": false,
+        "linha": 15,
+        "categoria": null
+      },
+      "linha": 15,
+      "categoria": null
+    },
+    {
+      "tipo": null,
       "op": "^",
       "left": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 2,
-        "is_real": false
+        "is_real": false,
+        "linha": 16,
+        "categoria": null
       },
       "right": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 5,
-        "is_real": false
-      }
+        "is_real": false,
+        "linha": 16,
+        "categoria": null
+      },
+      "linha": 16,
+      "categoria": null
     },
     {
-      "tipo": "ResNode",
-      "n": 1
-    },
-    {
-      "tipo": "MemWriteNode",
+      "tipo": null,
       "name": "VALOR",
       "value": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 100,
-        "is_real": false
-      }
+        "is_real": false,
+        "linha": 19,
+        "categoria": null
+      },
+      "linha": 19,
+      "categoria": null
     },
     {
-      "tipo": "MemReadNode",
-      "name": "VALOR"
+      "tipo": null,
+      "name": "PI",
+      "value": {
+        "tipo": null,
+        "value": 3.14,
+        "is_real": true,
+        "linha": 20,
+        "categoria": null
+      },
+      "linha": 20,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "op": "*",
+      "left": {
+        "tipo": null,
+        "name": "PI",
+        "linha": 21,
+        "categoria": null
+      },
+      "right": {
+        "tipo": null,
+        "value": 2.0,
+        "is_real": true,
+        "linha": 21,
+        "categoria": null
+      },
+      "linha": 21,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "op": "+",
+      "left": {
+        "tipo": null,
+        "name": "VALOR",
+        "linha": 22,
+        "categoria": null
+      },
+      "right": {
+        "tipo": null,
+        "name": "PI",
+        "linha": 22,
+        "categoria": null
+      },
+      "linha": 22,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "name": "VALOR",
+      "linha": 23,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "n": 1,
+      "linha": 24,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "op": "+",
+      "left": {
+        "tipo": null,
+        "op": "+",
+        "left": {
+          "tipo": null,
+          "value": 3,
+          "is_real": false,
+          "linha": 27,
+          "categoria": null
+        },
+        "right": {
+          "tipo": null,
+          "value": 2,
+          "is_real": false,
+          "linha": 27,
+          "categoria": null
+        },
+        "linha": 27,
+        "categoria": null
+      },
+      "right": {
+        "tipo": null,
+        "op": "*",
+        "left": {
+          "tipo": null,
+          "value": 4,
+          "is_real": false,
+          "linha": 27,
+          "categoria": null
+        },
+        "right": {
+          "tipo": null,
+          "value": 5,
+          "is_real": false,
+          "linha": 27,
+          "categoria": null
+        },
+        "linha": 27,
+        "categoria": null
+      },
+      "linha": 27,
+      "categoria": null
+    },
+    {
+      "tipo": null,
+      "op": "^",
+      "left": {
+        "tipo": null,
+        "op": "*",
+        "left": {
+          "tipo": null,
+          "op": "+",
+          "left": {
+            "tipo": null,
+            "value": 2,
+            "is_real": false,
+            "linha": 28,
+            "categoria": null
+          },
+          "right": {
+            "tipo": null,
+            "value": 3,
+            "is_real": false,
+            "linha": 28,
+            "categoria": null
+          },
+          "linha": 28,
+          "categoria": null
+        },
+        "right": {
+          "tipo": null,
+          "value": 4,
+          "is_real": false,
+          "linha": 28,
+          "categoria": null
+        },
+        "linha": 28,
+        "categoria": null
+      },
+      "right": {
+        "tipo": null,
+        "value": 2,
+        "is_real": false,
+        "linha": 28,
+        "categoria": null
+      },
+      "linha": 28,
+      "categoria": null
     },
     {
       "tipo": "IfNode",
       "condition": {
-        "tipo": "ConditionNode",
+        "tipo": null,
         "op": ">",
         "left": {
-          "tipo": "MemReadNode",
-          "name": "VALOR"
+          "tipo": null,
+          "name": "VALOR",
+          "linha": 31,
+          "categoria": null
         },
         "right": {
-          "tipo": "NumberNode",
+          "tipo": null,
           "value": 50,
-          "is_real": false
-        }
+          "is_real": false,
+          "linha": 31,
+          "categoria": null
+        },
+        "linha": 31,
+        "categoria": null
       },
       "then_block": [
         {
-          "tipo": "MemWriteNode",
+          "tipo": null,
           "name": "FLAG",
           "value": {
-            "tipo": "NumberNode",
+            "tipo": null,
             "value": 1,
-            "is_real": false
-          }
+            "is_real": false,
+            "linha": 31,
+            "categoria": null
+          },
+          "linha": 31,
+          "categoria": null
         }
       ],
-      "else_block": []
+      "else_block": [
+        {
+          "tipo": null,
+          "name": "FLAG",
+          "value": {
+            "tipo": null,
+            "value": 0,
+            "is_real": false,
+            "linha": 31,
+            "categoria": null
+          },
+          "linha": 31,
+          "categoria": null
+        }
+      ],
+      "linha": 31,
+      "categoria": null
     },
     {
-      "tipo": "MemWriteNode",
+      "tipo": null,
       "name": "CONT",
       "value": {
-        "tipo": "NumberNode",
+        "tipo": null,
         "value": 0,
-        "is_real": false
-      }
+        "is_real": false,
+        "linha": 32,
+        "categoria": null
+      },
+      "linha": 32,
+      "categoria": null
     },
     {
       "tipo": "WhileNode",
       "condition": {
-        "tipo": "ConditionNode",
+        "tipo": null,
         "op": "<",
         "left": {
-          "tipo": "MemReadNode",
-          "name": "CONT"
+          "tipo": null,
+          "name": "CONT",
+          "linha": 33,
+          "categoria": null
         },
         "right": {
-          "tipo": "NumberNode",
+          "tipo": null,
           "value": 3,
-          "is_real": false
-        }
+          "is_real": false,
+          "linha": 33,
+          "categoria": null
+        },
+        "linha": 33,
+        "categoria": null
       },
       "body": [
         {
-          "tipo": "MemWriteNode",
+          "tipo": null,
           "name": "CONT",
           "value": {
-            "tipo": "BinOpNode",
+            "tipo": null,
             "op": "+",
             "left": {
-              "tipo": "MemReadNode",
-              "name": "CONT"
+              "tipo": null,
+              "name": "CONT",
+              "linha": 33,
+              "categoria": null
             },
             "right": {
-              "tipo": "NumberNode",
+              "tipo": null,
               "value": 1,
-              "is_real": false
-            }
-          }
+              "is_real": false,
+              "linha": 33,
+              "categoria": null
+            },
+            "linha": 33,
+            "categoria": null
+          },
+          "linha": 33,
+          "categoria": null
         }
-      ]
+      ],
+      "linha": 33,
+      "categoria": null
     },
     {
-      "tipo": "MemReadNode",
-      "name": "CONT"
-    },
-    {
-      "tipo": "MemReadNode",
-      "name": "VALOR"
+      "tipo": null,
+      "name": "CONT",
+      "linha": 34,
+      "categoria": null
     }
-  ]
+  ],
+  "linha": 0,
+  "categoria": null
 }

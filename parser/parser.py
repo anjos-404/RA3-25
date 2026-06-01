@@ -366,6 +366,17 @@ def parsear(tokens: list[Token], gramatica: Gramatica) -> DerivacaoNode:
 def parsear_com_recuperacao(
     tokens: list[Token], gramatica: Gramatica
 ) -> tuple[DerivacaoNode | None, list[str]]:
+    """Análise sintática com recuperação de erros em modo pânico.
 
+    Diferente de parsear(), NÃO aborta no primeiro erro: registra cada
+    erro sintático (com linha e tipo), sincroniza no início do próximo
+    statement e continua, de modo a reportar TODOS os erros encontrados
+    em uma única passada.
+
+    Saída:
+        (raiz, erros) — a árvore de derivação (parcial, se houve erros)
+        e a lista de mensagens de erro. Sem erros, `erros` é vazia e a
+        árvore é a derivação completa.
+    """
     parser = RecursiveDescentParser(tokens, gramatica)
     return parser.parse_com_recuperacao()
