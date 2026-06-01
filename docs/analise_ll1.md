@@ -4,6 +4,7 @@
 > Fase 2 — Analisador Sintatico LL(1)
 >
 > Integrantes:
+> - Christopher Gabriel Miranda da Cruz (GitHub: Miiranda45)
 > - Mauricio dos Anjos Souza (GitHub: anjos-404)
 
 ---
